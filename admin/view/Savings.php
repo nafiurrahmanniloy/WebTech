@@ -17,9 +17,7 @@
                 <td>
                     <input type="text" name="savings_name"/>
                 </td>
-                <td>
-                    <?php echo $savings_nameError;?>
-                </td>
+                
             </tr>
 
             <tr>
@@ -30,9 +28,7 @@
                 <td>
                     <input type="text" name="savings_amount" />
                 </td>
-                <td>
-                    <?php echo $savings_amountError;?>
-                </td>
+               
             </tr>
 
             <tr>
@@ -52,9 +48,6 @@
                     </select>
                 </td>
 
-                <td>
-                    <?php echo $savings_typeError;?>
-                </td>
             </tr>
 
 
