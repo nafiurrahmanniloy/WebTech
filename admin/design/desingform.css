@@ -1,0 +1,12 @@
+#myForm input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #myForm input:invalid {
+    border: 2px dashed red;
+  }
+  
+  #myForm input:valid {
+    border: 2px solid green;
+  }
