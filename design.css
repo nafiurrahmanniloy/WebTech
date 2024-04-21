@@ -1,0 +1,114 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4bc; 
+}
+
+.container {
+    width: 60%;
+    max-width: 600px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e6e2fd;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="radio"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="radio"]:focus {
+    outline: none;
+    border-color: #d3caff;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+}
+
+.radio-group label {
+    flex: 1;
+    background-color: #f4f4f4;
+    border: 2px solid #d3caff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.radio-group input[type="radio"] {
+    display: none;
+}
+
+.radio-group input[type="radio"]:checked + label {
+    background-color: #4a51c3;
+    color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 14px 20px;
+    background-color: #d3caff;
+    color: #111010;
+    border: 2px solid #d3caff;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a51c3;
+    color: #050404;
+}
+.error {
+    color: #d32f2f;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .error .message {
+    display: inline-block;
+    vertical-align: middle;
+  }
